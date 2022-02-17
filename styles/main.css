@@ -1,3 +1,12 @@
+@font-face {
+	font-family:"OpenSansRegular";
+	src:url("fonts/OpenSansRegular.eot");
+	src:url("fonts/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+	url("fonts/OpenSansRegular.woff") format("woff"),
+	url("fonts/OpenSansRegular.ttf") format("truetype");
+	font-style:normal;
+	font-weight:normal
+}
 /* Добавляем фон меню */
 .header-nav {
 	background-color: #39844a;
@@ -204,38 +213,86 @@
 	background-color: #9ce7cd;
 }
 
-.footerLinks1{
+.footerLinks1 {
 	text-align: center;
 }
-.footerLinks1 a{
+
+.footerLinks1 a {
 	text-decoration: none;
 	color: black;
 	padding-left: 30px;
 	padding-right: 30px;
 
 }
-.footerLinks2{
+
+.footerLinks2 {
 	text-align: center;
 }
-.footerLinks2 a{
+
+.footerLinks2 a {
 	text-decoration: none;
 	color: black;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
-.linksWrapper{
+.linksWrapper {
 	border: 1px solid black;
 }
-.link1{
+
+.link1 {
 	border-right: 1.5px solid black;
 }
 
 .slider-wrapper {
 	margin-left: auto;
-margin-right: auto;
-max-width: 700px;
+	margin-right: auto;
+	max-width: 700px;
 }
-.slider-backgrnd{
-	background-color:#ecf0f1;
+
+.slider-backgrnd {
+	background-color: #ecf0f1;
+}
+
+.card {
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 18rem;
+}
+
+.header-card {
+	text-align: center;
+}
+
+.header-wrapper {
+	width: auto;
+	background-color: #39844a;
+}
+
+.span-name {
+	color: red;
+	font-size: 3vh;
+	text-transform: uppercase;
+}
+
+.carousel-inner {
+	width: 100%;
+}
+
+.block-wrapper {
+	background-image: url(/images/bg1.jpg);
+	margin-bottom: 5%;
+}
+
+.copyright-text {
+	font-size: 0.7rem;
+}
+
+.footer {
+	margin-bottom: 1%;
+}
+
+.body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(/images/bg1.jpg)
 }
